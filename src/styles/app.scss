@@ -1,0 +1,28 @@
+// font-family: 'Antic Slab', serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Chettan 2", cursive;
+}
+h1,
+h2 {
+  color: rgb(54, 54, 54);
+}
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(104, 104, 104);
+}
+.App {
+  transition: all 0.5s ease;
+}
+.library-active {
+  margin-left: 20%;
+}
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
